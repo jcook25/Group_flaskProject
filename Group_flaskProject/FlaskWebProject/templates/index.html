@@ -1,0 +1,42 @@
+
+
+{% extends "layout.html" %}
+
+{% block content %}
+
+<div class="jumbotron">
+    <h1>TAKE A HIKE!</h1>
+    <p class="lead">Trails in the National Parks Service.</p>
+    <p><a href="https://www.nps.gov/subjects/nationaltrailssystem/index.htm" class="btn btn-primary btn-large">Learn more &raquo;</a></p>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>National Parks Trails</h2>
+       
+        <p>
+            We wanted to gather information on popular trails. We used a National Parks Trail dataset from Kaggle. 
+            In this dataset only 3,060 trails were gather and reviewed. We wanted to see which states had the most trails.
+            The dataset provided reviewed the trails by trail id, name, city name, state,geo location, popularity, hike difficulty,
+            average rating, and number of reviews.
+        </p>
+        <p><a class="btn btn-default" href="https://www.kaggle.com/planejane/national-park-trails">Learn more &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>First Choice for a Hike :</h2>
+        <p>Based on our analysis, we believe Angles Landing in Zion National Park is worth the hike.
+            <br> <br>
+            <br> Average Rating out of 5 : 5 <br>
+            <br> Difficulty : 5 <br>
+            <br> Number of Reviews : 3,903 <br>
+        </p>
+        <p><a class="btn btn-default" href="https://utah.com/zion-national-park/angels-landing">Learn more &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>All Trails</h2>
+        <p>Find more informations through the Alltrails Website.</p>
+        <p><a class="btn btn-default" href="https://www.alltrails.com/">Learn more &raquo;</a></p>
+    </div>
+</div>
+
+{% endblock %}

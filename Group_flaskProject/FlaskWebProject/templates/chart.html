@@ -1,0 +1,33 @@
+{% extends "layout.html" %}
+
+{% block myscripts %}
+<script src="https://d3js.org/d3.v5.min.js"></script>
+<link rel="stylesheet" href="/static/content/style.css">
+{% endblock %}
+
+{% block content %}
+
+<h2>{{ title }}.</h2>
+<h3>{{ message }}</h3>
+<div id="plot"></div>
+{% endblock %}
+
+{% block scripts %}
+
+<script src="/static/scripts/plots.js"></script>
+
+{% endblock %}
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Trails by State </title>
+  <link rel="stylesheet" href="/static/content/style.css">
+</head>
+<body>
+  <h1>States with the most Trails</h1>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script src="/static/scripts/app.js"></script>
+</body>
+</html> -->

@@ -1,0 +1,28 @@
+html,
+
+h1 {
+  /* Put a 15-pixel margin at the bottom of the heading. */
+  margin-bottom: 10px;
+  /* Change the size of your font to 60 pixels high. */
+  font-size: 50px;
+  /* This will color the heading font white. */
+  color: lightcoral;
+  /* Align the text to the center of its enclosing element (e.g. div). */
+  text-align: center;
+  /* Underline the text. */
+  text-decoration: underline;
+  /* The background of the heading element will now be black. */
+  background-color: papayawhip;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.bar {
+  fill: skyblue;
+}
+
+.bar:hover {
+  fill: blue;
+}
